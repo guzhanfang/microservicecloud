@@ -1,0 +1,9 @@
+spring:
+    profiles:dev
+    appliction:
+        name:microservicecloud-dev
+---
+spring:
+    profiles:test
+    appliction:
+        name:microservicecloud-test
