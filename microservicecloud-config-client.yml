@@ -1,2 +1,9 @@
 spring:
-    name: "客户端"
+    application:
+        name:spring-cloud-config-client
+server:
+    port:3355
+eureka:
+    client:
+        service-url:
+            defaultZone:http://eureka7001.com:7001/eureka/
